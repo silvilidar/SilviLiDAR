@@ -9,7 +9,7 @@
 ##hmontebravo=number 5.0
 ##hselvicolas=number 7.5
 ##hclaras=number 12.0
-##hclaras2=number 15.0
+##hclaras2=number 16.5
 ##hbcminima=number 3.0
 ##hbcdesarrollado=number 5.5
 ##rcclaras=number 35.0
