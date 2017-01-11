@@ -1,3 +1,5 @@
+#SilviLiDAR
+
 Script para Qgis que procesa archivos LAZ o LAS para caracterizar las masas forestales, siendo posible evaluar el estado de desarrollo y el momento adecuado para actuar selvícolamente.
 
 Requiere del Software FUSION desarrollado por US Department of Agriculture, Forest Service, Pacific Northwest Research Station. Puede descargarse desde http://forsys.cfr.washington.edu/fusion/FUSION_Install.exe
