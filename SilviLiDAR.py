@@ -342,9 +342,9 @@ def exprimelidar(las, carpeta, crecimiento, fccbaja, fccterrazas, fccmedia, fcca
             calculo('100 * ( hmp@1   -  hbcp@1  ) / ( hmp@1 )', 'rcp')
             StringToRaster(os.path.join(carpeta,troncoresumido+'_rcp.tif'),"rcp")
             #proyecto la fraccion de cabida cubierta
-            calculo('(fcc@1  + ' +str(crecimientofcc)+')', 'fccp')
+            calculo('('+str(crecimiento)+' > 0) * (fcc@1  + ' +str(crecimientofcc)+') + ( '+str(crecimiento)+' = 0) * (fcc@1 )', 'fccp')
             StringToRaster(os.path.join(carpeta,troncoresumido+'_fccp.tif'),"fccp")
-            #proyecto la fraccion de cabida cubierta
+            #proyecto la longitud de copa
             calculo('(hmp@1 - hbcp@1)','lcp')
             StringToRaster(os.path.join(carpeta,troncoresumido+'_lcp.tif'),"lcp")
 
