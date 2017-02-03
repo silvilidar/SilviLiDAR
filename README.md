@@ -5,7 +5,7 @@ Script para Qgis que procesa archivos LAZ o LAS para caracterizar las masas fore
 Requiere del Software FUSION desarrollado por US Department of Agriculture, Forest Service, Pacific Northwest Research Station. Puede descargarse desde http://forsys.cfr.washington.edu/fusion/FUSION_Install.exe
 Para trabajar con archivos LAZ requiere LAStools que puede ser descargado desde http://rapidlasso.com/lastools/ y posteriormente copiar el archivo LASzip.dll en la carpeta de instalación de FUSION.
 
-La instalación de SilviLiDAR consiste en copiar los archivos SilviLiDAR.py y SilviLiDAR.py.help en la carpeta de scripts de processing. Por ejemplo con Windows7 "C:\Users\TU_USUARIO\.qgis2\processing\scripts".
+Para instalar SilviLiDAR dentro de Qgis se debe ir al menu Procesos, Caja de herramientas, Scripts, Herramientas, Obtener Scripts a partir de colección de scripts en linea y activar SilviLiDAR.
 Para acceder a la herramienta hay que abrir la caja de herramientas desde el menu procesos. A continuación aperecera SilviLiDAR dentro de Scripts, Scripts de usuario.
 
 SilviLiDAR procesa archivos LiDAR en formato LAZ o LAS como los que pueden descargarse de la web del CNIG
