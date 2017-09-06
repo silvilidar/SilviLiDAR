@@ -558,7 +558,7 @@ def exprimelidar(las, carpeta, crecimiento, fccbaja, fccterrazas, fccmedia, fcca
             QgsMapLayerRegistry.instance().addMapLayer(sumashp)
  
             #filtro para quedarme con la clara
-            calculo('c11@1 / 8 + c14@1 / 9  + c15@1 / 8 + c19@1 / 8 + c20@1 / 12 + c21@1 / 8 + c25@1 / 12 + c26@1 / 13', 'clara1')
+            calculo('c11@1 / 81 + c14@1 / 9  + c15@1 / 81 + c19@1 / 82 + c20@1 / 121 + c21@1 / 82 + c25@1 / 122 + c26@1 / 13', 'clara1')
             StringToRaster(os.path.join(carpeta,troncoresumido+'_clara1.tif'),"clara1")
             agregado("clara")
 
@@ -568,7 +568,7 @@ def exprimelidar(las, carpeta, crecimiento, fccbaja, fccterrazas, fccmedia, fcca
             agregado("regeneracion")
 
             #filtro para quedarme con el resalveo
-            calculo('c3@1 / 5 + c8@1 / 5', 'resalveo1')
+            calculo('c3@1 / 51 + c8@1 / 52', 'resalveo1')
             StringToRaster(os.path.join(carpeta,troncoresumido+'_resalveo1.tif'),"resalveo1")
             agregado2("resalveo")
            
