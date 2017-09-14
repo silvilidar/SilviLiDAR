@@ -406,8 +406,7 @@ def exprimelidar(las, carpeta, crecimiento, fccbaja, fccterrazas, fccmedia, fcca
             calculo('(fccp@1 > '+str(fccbaja)+')*(hmp@1 > '+str(hclaras2)+')*(rcp@1 >= '+str(rcclaras)+')*112', 'C24')
             
             #primera aproximacion al volumen                         
-            calculo('((((11.2958099433282 * hmp@1 * fccp@1 / 100 ) + (1.01082625996345 * hbcp@1 * hbcp@1 ))/100) > 10 ) * 10 + ((((11.2958099433282 * hmp@1 * fccp@1 / 100 ) + (1.01082625996345 * hbcp@1 * hbcp@1 ))/100) < 10 ) * (((11.2958099433282 * hmp@1 * fccp@1 / 100 ) + (1.01082625996345 * hbcp@1 * hbcp@1 ))/100) ', 'V')    
-            StringToRaster(os.path.join(carpeta,troncoresumido+'_V.tif'),"vol")
+
            
             #empiezo carga de capas c
             StringToRaster(os.path.join(carpeta,troncoresumido+'_C1.tif'),"c1")
