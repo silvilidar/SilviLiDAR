@@ -67,7 +67,8 @@ def exprimelidar(las, carpeta, crecimiento, fccbaja, fccterrazas, fccmedia, fcca
     
     #defino un par de variables con el nombre del archivo y su abreviatura. Pensado para la denominacion estandar de los archivos LiDAR del PNOA
     tronco=las[:-4]
-    troncoresumido=las[24:27]+"_"+las[28:32]
+    patron = re.compile('\d{3}\-\d{4}')
+    troncoresumido=patron.findall(las)[0].replace("-","_")
     
     #definicion de parametros funciones y rutas
     funcion1 = "c:/fusion/groundfilter"
