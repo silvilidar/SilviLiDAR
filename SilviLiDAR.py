@@ -68,9 +68,9 @@ def buscalidaryejecuta(carpeta, crecimiento, fccbaja, fccterrazas, fccmedia, fcc
 def exprimelidar(las, carpeta, crecimiento, fccbaja, fccterrazas, fccmedia, fccalta, hmontebravoe, hmontebravo, hselvicolas, hclaras, hclaras2, hbcminima, hbcdesarrollado, rcclaras, rcextremo, longitudcopaminima, crecimientofcc):
     fcstring = ""
     
-    #defino un par de variables con el nombre del archivo y su abreviatura. Pensado para la denominacion estandar de los archivos LiDAR del PNOA
+    #defino un par de variables con el nombre del archivo y su abreviatura. Pensado para la denominacion estandar de los archivos LiDAR del PNOA y del ITACYL
     tronco=las[:-4]
-    patron = re.compile(('\d{3}\_\d{4}|\d{3}\-\d{4}'))
+    patron = re.compile(('\d{3}\_\d{4}|\d{3}\-\d{4}|\d{4}\_\d{1}\-\d{1}'))
     troncoresumido=patron.findall(las)[0].replace("-","_")
     
     #definicion de parametros funciones y rutas
