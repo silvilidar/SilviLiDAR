@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <plugins>
-	  <pyqgis_plugin version="1.2.25" name="Silvilidar" plugin_id="9992">
+	  <pyqgis_plugin version="1.2.27" name="Silvilidar" plugin_id="9992">
       <description>Permite procesar datos LiDAR de una manera sencilla para obtener </description>
       <about>Se trata de la creación de una metodología y de una herramienta informática (SilviLiDAR), mediante un script, que analiza una serie de parámetros selvícolas obtenidos a partir de los datos LiDAR y, con la utilización de un árbol de decisión construido en base a la estructura, estado de desarrollo y grado de competencia del arbolado, clasifica por celdas (cuadrículas básicas) el territorio por tipos de masa y su posible necesidad de actuación selvícola, y lo expresa cartográficamente a través de QGIS.</about>
-      <version>1.2.25</version>
+      <version>1.2.27</version>
       <trusted>True</trusted>
       <qgis_minimum_version>3.4.0</qgis_minimum_version>
       <qgis_maximum_version>3.40.0</qgis_maximum_version>
       <homepage>https://medioambiente.jcyl.es/web/jcyl/MedioAmbiente/es/Plantilla100Detalle/1246988359553/_/1284711271182/Comunicacion?plantillaObligatoria=PlantillaContenidoNoticiaHome</homepage>
-      <file_name>silvilidar.1.2.25.zip</file_name>
+      <file_name>silvilidar.1.2.27.zip</file_name>
       <author_name>Alejandro Crespo Rodrígo, F. Javier Díez Rábanos</author_name>
-      <download_url>https://github.com/diezrabanos/qgis_plugins/blob/master/silvilidar.1.2.25.zip?raw=true</download_url>
+      <download_url>https://github.com/diezrabanos/qgis_plugins/blob/master/silvilidar.1.2.27.zip?raw=true</download_url>
       <experimental>False</experimental>
       <deprecated>False</deprecated>
     </pyqgis_plugin>
