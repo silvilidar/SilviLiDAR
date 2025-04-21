@@ -6,7 +6,7 @@ Complemento para Qgis que procesa archivos LAZ o LAS para caracterizar las masas
 Requiere del Software FUSION desarrollado por US Department of Agriculture, Forest Service, Pacific Northwest Research Station. Puede descargarse desde http://forsys.sefs.uw.edu/FUSION/fusion_overview.html
 Para trabajar con archivos LAZ requiere LAStools que puede ser descargado desde http://rapidlasso.com/lastools/ y posteriormente copiar el archivo LASzip.dll en la carpeta de instalación de FUSION.
 
-Para simplificar la instalación se ha creado el archivo comprimido https://github.com/silvilidar/SilviLiDAR/blob/master/FUSION.zip? con todos los archivos necesarios y que descomprimido directamente en C:/ hace innecesarios los pasos anteriores. De este modo quedan directamente en C:/FUSION los ejecutables que requiere Silvilidar, incluida la librería LASZip.dll.
+Para simplificar la instalación se ha creado el archivo comprimido [https://github.com/silvilidar/SilviLiDAR/blob/master/FUSION.zip?](https://github.com/silvilidar/SilviLiDAR/raw/refs/heads/master/FUSION.zip) con todos los archivos necesarios y que descomprimido directamente en C:/ hace innecesarios los pasos anteriores. De este modo quedan directamente en C:/FUSION los ejecutables que requiere Silvilidar, incluida la librería LASZip.dll.
 
 
 SilviLiDAR procesa archivos LiDAR en formato LAZ o LAS como los que pueden descargarse de la web del CNIG
