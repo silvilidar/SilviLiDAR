@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <plugins>
-	  <pyqgis_plugin version="1.3.06" name="Silvilidar" plugin_id="9992">
+	  <pyqgis_plugin version="1.3.09" name="Silvilidar" plugin_id="9992">
       <description>Permite procesar datos LiDAR de una manera sencilla para obtener </description>
       <about>Se trata de la creación de una metodología y de una herramienta informática (SilviLiDAR), mediante un script, que analiza una serie de parámetros selvícolas obtenidos a partir de los datos LiDAR y, con la utilización de un árbol de decisión construido en base a la estructura, estado de desarrollo y grado de competencia del arbolado, clasifica por celdas (cuadrículas básicas) el territorio por tipos de masa y su posible necesidad de actuación selvícola, y lo expresa cartográficamente a través de QGIS.</about>
       <version>1.3.09</version>
